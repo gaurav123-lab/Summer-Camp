@@ -159,7 +159,7 @@ function FAQ() {
           </form>
 
           <img
-            src="/public/Robot.png"
+            src="/Robot.png"
             alt="robot"
             className="absolute bottom-0 right-0 w-36 hidden md:block"
           />

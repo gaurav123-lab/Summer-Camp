@@ -2,7 +2,10 @@ import React from "react";
 
 function Hero() {
   return (
-    <section id="home" className="relative overflow-hidden bg-linear-to-r from-orange-500 via-orange-400 to-yellow-400 min-h-screen">
+    <section
+      id="home"
+      className="relative overflow-hidden bg-linear-to-r from-orange-500 via-orange-400 to-yellow-400 min-h-screen"
+    >
       <div className="absolute top-40 left-[55%] text-white text-5xl font-bold opacity-30">
         AI
       </div>
@@ -19,7 +22,6 @@ function Hero() {
               ✨ Summer 2026 Campaign — Limited Slots Available
             </div>
 
-         
             <h1 className="text-white font-extrabold text-5xl md:text-7xl mt-1 leading-tight">
               AI & ROBOTICS
               <br />
@@ -31,8 +33,6 @@ function Hero() {
               Coding through fun projects, interactive learning and real-world
               challenges.
             </p>
-
-           
 
             <div className="flex items-center gap-4 mt-10">
               <div className="flex">
@@ -64,7 +64,7 @@ function Hero() {
 
           <div className="flex justify-center">
             <img
-              src="\public\heroChild.png"
+              src="/heroChild.png"
               alt="AI Workshop"
               className="w-full max-w-175 object-contain "
             />
@@ -72,7 +72,7 @@ function Hero() {
         </div>
       </div>
 
- <div className="absolute bottom-0 left-0 w-full h-20 bg-white rounded-t-[80px]"></div>
+      <div className="absolute bottom-0 left-0 w-full h-20 bg-white rounded-t-[80px]"></div>
     </section>
   );
 }

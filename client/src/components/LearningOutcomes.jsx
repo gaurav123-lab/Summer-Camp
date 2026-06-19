@@ -41,7 +41,7 @@ function LearningOutcomes() {
         </div>
         <div className="flex justify-center items-center">
           <img
-            src="\public\FAQChild.png"
+            src="/Girl.png"
             alt="robotics"
             className="w-full max-w-112.5 object-contain drop-shadow-xl"
           />
